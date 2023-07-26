@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>PORTFOLIO WEBSITE-EASY TUTORIALS</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+
+
+
+        ">
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <div class="hero">
+            <nav>
+                <img scr="image/logo.png" class="logo">
+                <ul>
+                <li><a href="">MODE--> </a></li>
+                </ul>
+                <img src="image/moon.png" id="icon">
+            </nav>
+
+            <div class="info">
+                <h1>I'M <span>NITHISH</span> N</h1>
+                <P>This is my official portfolio website to showcase my all works.</P>
+                <a href="https://drive.google.com/drive/folders/1-k5AGwniVw8Kz3It-SmLY4Zb2KxdN0PR">download cv</a>
+            </div>
+
+            <div class="img-box">
+                <img src="image/pattern.png"class="back-img">
+                <img src="image/logo.png"class="main-img">
+
+            </div>
+            <div class="social-links">
+            <a href="https://www.linkedin.com/in/nithish-n-b72b5918a"><i class="fab fa-linkedin"></i></a>
+            <a href="https://instagram.com/nithish_shimman?igshid=OGQ5ZDc2ODk2ZA=="><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/nithish.n.965?mibextid=LQQJ4d"><i class="fab fa-facebook"></i></a>
+
+        </div>
+    </div>
+        <script>
+
+            var icon = document.getElementById("icon");
+
+            icon.onclick = function(){
+                document.body.classList.toggle("dark-theme");
+                if(document.body.classList.contains("dark-theme")){
+                    icon.src ="image/sun.png";
+                }else{
+                    icon.src = "image/moon.png";
+                }
+                
+            }
+        </script>
+</body>
+</html>
